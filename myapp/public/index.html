@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		.border-red{	
+			border:1px solid red;
+		}	
+	</style>
+</head>
+<body>
+<h1>My website</h1>
+	<p class="first">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, labore.</p>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, animi!</p>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, animi!</p>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, animi!</p>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, animi!</p>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, animi!</p>
+
+	<script>		
+
+		$('p').click(function(){
+			$(this).addClass('border-red');
+		})
+
+	</script>
+
+</body>
+</html>
